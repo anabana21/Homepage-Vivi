@@ -1,0 +1,105 @@
+:root {
+    --branding-color: #DA4B2B;
+    --secondary-color: white;
+    --heading-font-family: ;
+    --default-font-family: ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h2 {
+font-size: 12px;
+}
+
+
+p {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+section {
+    background: var(--branding-color);
+    padding: 80px 20px;
+}
+
+section.coaching {
+    background: white;
+}
+
+
+img .hero {
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    background-color: var(--branding-color) !important;
+    border: #DA4B2B !important;
+}
+
+.btn-primary :hover {
+    background-color: var(--secondary-color) !important;
+    color: DA4B2B !important;
+}
+
+.hero {
+   text-align: center;
+   padding: 80px 20px;
+}
+
+nav {
+    padding: 20px 0;
+    font-weight: bolder;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100my ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: red;
+}
+
+footer {
+    margin: 60px 0;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: var(--branding-color) ;
+    background: rgb(210, 200, 200);
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background: var(--branding-color);
+}
+
+
